@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-black.css">
+    <link rel="stylesheet" href="style-green.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="board-area">
+        <br>
+        <div class="koseler">
+            <div class="up-side">
+                <div class="box-up"></div>
+                <div class="box-up">A</div>
+                <div class="box-up">B</div>
+                <div class="box-up">C</div>
+                <div class="box-up">D</div>
+                <div class="box-up">E</div>
+                <div class="box-up">F</div>
+                <div class="box-up">G</div>
+                <div class="box-up">H</div>
+                <div class="box-up"></div>
+            </div> 
+            <div class="left-side">
+                <div class="box-left">1</div>
+                <div class="box-left">2</div>
+                <div class="box-left">3</div>
+                <div class="box-left">4</div>
+                <div class="box-left">5</div>
+                <div class="box-left">6</div>
+                <div class="box-left">7</div>
+                <div class="box-left">8</div>
+            </div>
+            <div class="down-side">
+                <div class="box-down"></div>
+                <div class="box-down">A</div>
+                <div class="box-down">B</div>
+                <div class="box-down">C</div>
+                <div class="box-down">D</div>
+                <div class="box-down">E</div>
+                <div class="box-down">F</div>
+                <div class="box-down">G</div>
+                <div class="box-down">H</div>
+                <div class="box-down"></div>
+            </div> 
+            <div class="right-side">
+                <div class="box-right">1</div>
+                <div class="box-right">2</div>
+                <div class="box-right">3</div>
+                <div class="box-right">4</div>
+                <div class="box-right">5</div>
+                <div class="box-right">6</div>
+                <div class="box-right">7</div>
+                <div class="box-right">8</div>
+            </div>
+        </div>
+
+        <div class="game-area">
+            <div class="first-row">
+                <div class="first-square">A1</div>
+                <div class="first-square">B1</div>
+                <div class="first-square">C1</div>
+                <div class="first-square">D1</div>
+                <div class="first-square">E1</div>
+                <div class="first-square">F1</div>
+                <div class="first-square">G1</div>
+                <div class="first-square">H1</div>
+            </div>
+            <div class="second-row">
+                <div class="second-square" >A2</div>
+                <div class="second-square">B2</div>
+                <div class="second-square">C2</div>
+                <div class="second-square">D2</div>
+                <div class="second-square">E2</div>
+                <div class="second-square">F2</div>
+                <div class="second-square">G2</div>
+                <div class="second-square">H2</div>
+            </div>
+            <div class="third-row">
+                <div class="third-square">A3</div>
+                <div class="third-square">B3</div>
+                <div class="third-square">C3</div>
+                <div class="third-square">D3</div>
+                <div class="third-square">E3</div>
+                <div class="third-square">F3</div>
+                <div class="third-square">G3</div>
+                <div class="third-square">H3</div>
+            </div>
+            <div class="fourth-row">
+                <div class="fourth-square">A4</div>
+                <div class="fourth-square">B4</div>
+                <div class="fourth-square">C4</div>
+                <div class="fourth-square">D4</div>
+                <div class="fourth-square">E4</div>
+                <div class="fourth-square">F4</div>
+                <div class="fourth-square">G4</div>
+                <div class="fourth-square">H4</div>
+            </div>
+            <div class="fifth-row">
+                <div class="fifth-square">A5</div>
+                <div class="fifth-square">B5</div>
+                <div class="fifth-square">C5</div>
+                <div class="fifth-square">D5</div>
+                <div class="fifth-square">E5</div>
+                <div class="fifth-square">F5</div>
+                <div class="fifth-square">G5</div>
+                <div class="fifth-square">H5</div>
+            </div>
+            <div class="sixth-row">
+                <div class="sixth-square">A6</div>
+                <div class="sixth-square">B6</div>
+                <div class="sixth-square">C6</div>
+                <div class="sixth-square">D6</div>
+                <div class="sixth-square">E6</div>
+                <div class="sixth-square">F6</div>
+                <div class="sixth-square">G6</div>
+                <div class="sixth-square">H6</div>
+            </div>
+            <div class="seventh-row">
+                <div class="seventh-square">A7</div>
+                <div class="seventh-square">B7</div>
+                <div class="seventh-square">C7</div>
+                <div class="seventh-square">D7</div>
+                <div class="seventh-square">E7</div>
+                <div class="seventh-square">F7</div>
+                <div class="seventh-square">G7</div>
+                <div class="seventh-square">H7</div>
+            </div>
+            <div class="eighth-row">
+                <div class="eighth-square">A8</div>
+                <div class="eighth-square">B8</div>
+                <div class="eighth-square">C8</div>
+                <div class="eighth-square">D8</div>
+                <div class="eighth-square">E8</div>
+                <div class="eighth-square">F8</div>
+                <div class="eighth-square">G8</div>
+                <div class="eighth-square">H8</div>
+            </div>
+        </div> 
+    
+    </div>
+    <div class="black-rock">  
+        <button type="button" id="black-1" onclick="moveBlack1()"   style="top: 15.5vw; left: 31.5vw;"></button>    
+        <button type="button" id="black-2" onclick="moveBlack2()"   style="top: 15.5vw; left: 37.5vw;"></button>    
+        <button type="button" id="black-3" onclick="moveBlack3()"   style="top: 15.5vw; left: 43.5vw;"></button>    
+        <button type="button" id="black-4" onclick="moveBlack4()"   style="top: 15.5vw; left: 49.5vw;"></button>    
+        <button type="button" id="black-5" onclick="moveBlack5()"   style="top: 15.5vw; left: 55.5vw;"></button>    
+        <button type="button" id="black-6" onclick="moveBlack6()"   style="top: 15.5vw; left: 61.5vw;"></button>    
+        <button type="button" id="black-7" onclick="moveBlack7()"   style="top: 15.5vw; left: 67.5vw;"></button>    
+        <button type="button" id="black-8" onclick="moveBlack8()"   style="top: 15.5vw; left: 73.5vw;"></button>    
+        <button type="button" id="black-9" onclick="moveBlack9()"   style="top: 21.5vw; left: 31.5vw;"></button>    
+        <button type="button" id="black-10" onclick="moveBlack10()" style="top: 21.5vw; left: 37.5vw;"></button>    
+        <button type="button" id="black-11" onclick="moveBlack11()" style="top: 21.5vw; left: 43.5vw;"></button>    
+        <button type="button" id="black-12" onclick="moveBlack12()" style="top: 21.5vw; left: 49.5vw;"></button>    
+        <button type="button" id="black-13" onclick="moveBlack13()" style="top: 21.5vw; left: 55.5vw;"></button>    
+        <button type="button" id="black-14" onclick="moveBlack14()" style="top: 21.5vw; left: 61.5vw;"></button>    
+        <button type="button" id="black-15" onclick="moveBlack15()" style="top: 21.5vw; left: 67.5vw;"></button>    
+        <button type="button" id="black-16" onclick="moveBlack16()" style="top: 21.5vw; left: 73.5vw;"></button>    
+    </div>
+    <div class="green-rock">  
+        <button type="button" id="green-1" onclick="moveGreen1()"   style="top: 45.5vw; left: 31.5vw;"></button>    
+        <button type="button" id="green-2" onclick="moveGreen2()"   style="top: 45.5vw; left: 37.5vw;"></button>    
+        <button type="button" id="green-3" onclick="moveGreen3()"   style="top: 45.5vw; left: 43.5vw;"></button>    
+        <button type="button" id="green-4" onclick="moveGreen4()"   style="top: 45.5vw; left: 49.5vw;"></button>    
+        <button type="button" id="green-5" onclick="moveGreen5()"   style="top: 45.5vw; left: 55.5vw;"></button>    
+        <button type="button" id="green-6" onclick="moveGreen6()"   style="top: 45.5vw; left: 61.5vw;"></button>    
+        <button type="button" id="green-7" onclick="moveGreen7()"   style="top: 45.5vw; left: 67.5vw;"></button>    
+        <button type="button" id="green-8" onclick="moveGreen8()"   style="top: 45.5vw; left: 73.5vw;"></button>    
+        <button type="button" id="green-9" onclick="moveGreen9()"   style="top: 39.5vw; left: 31.5vw;"></button>    
+        <button type="button" id="green-10" onclick="moveGreen10()" style="top: 39.5vw; left: 37.5vw;"></button>    
+        <button type="button" id="green-11" onclick="moveGreen11()" style="top: 39.5vw; left: 43.5vw;"></button>    
+        <button type="button" id="green-12" onclick="moveGreen12()" style="top: 39.5vw; left: 49.5vw;"></button>    
+        <button type="button" id="green-13" onclick="moveGreen13()" style="top: 39.5vw; left: 55.5vw;"></button>    
+        <button type="button" id="green-14" onclick="moveGreen14()" style="top: 39.5vw; left: 61.5vw;"></button>    
+        <button type="button" id="green-15" onclick="moveGreen15()" style="top: 39.5vw; left: 67.5vw;"></button>    
+        <button type="button" id="green-16" onclick="moveGreen16()" style="top: 39.5vw; left: 73.5vw;"></button>    
+    </div>
+
+<script src="black-move.js"></script>
+<script src="green-move.js"></script>
+
+
+</body>
+</html>

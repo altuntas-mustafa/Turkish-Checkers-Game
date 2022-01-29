@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.board-area {
+    background-color: grey;
+    width: 65vw;
+    height: 65vw;
+    margin-left: 21vw;
+    padding-left: 2vw;
+}
+.game-area {
+    position: absolute;
+    top: 8vw;
+    left: 30vw;
+    width: 48vw;
+    height: 49.2vw;
+    border: 0.5vw solid red;
+}
+
+.up-side {
+    display: flex; 
+    background-color: #612A22;
+    width: 60vw;
+    margin-top: -0.2vw;
+    margin-left: 1vw; 
+}
+
+.down-side {
+    display: flex; 
+    background-color: #612A22;
+    width: 60vw;
+    margin-left: 1vw;
+    padding-top: 1vw;   
+    padding-left: 0.5vw;   
+}
+.left-side {
+    margin-left: 1vw;
+    background-color: #612A22;
+    width: 6vw;
+    height: 49.2vw;
+}
+.right-side {
+    position: absolute;
+    width: 6vw;
+    height: 49.2vw;
+    right: 15vw;
+    top: 8vw;
+    background-color: #612A22;
+    border: 0.1vw solid #612A22;
+}
+
+.box-up {
+    width: 6vw;
+    height: 6vw;
+    font-size: 3.5vw;
+    color: #7F694B;
+    padding-left: 1.7vw;
+    padding-top: 0.9vw;
+}
+
+.box-down {
+    width: 6vw;
+    height: 6vw;
+    font-size: 3.5vw;
+    color: #7F694B;
+    padding-left: 1vw;
+}
+.box-left {
+    width: 6vw;
+    height: 6vw;
+    font-size: 3vw;
+    color: #7F694B;
+    text-align: center;
+    padding-top: 0.8vw;
+    padding-right: 1vw;
+}
+.box-right {
+    width: 6vw;
+    height: 6vw;
+    font-size: 3vw;
+    color: #7F694B;
+    text-align: center;
+    padding-top: 0.5vw;
+}
+
+.first-row {
+    display: flex;
+    background-color: white;
+}
+.first-square {
+    width: 6vw;
+    height: 6vw;
+    text-align: center;
+    padding-top: 2.5vw;
+}
+.second-row {
+    display: flex;
+    background-color: white;
+}
+.second-square {
+    /* background-image: url(./black\ dama\ taşı-2.1.jfif);
+    background-size: 5vw;
+    background-repeat: no-repeat;
+    background-position-y: 1vw; */
+    width: 6vw;
+    height: 6vw;
+    text-align: center;
+    padding-top: 2.5vw;
+}
+.third-row {
+    display: flex;
+    background-color: white;
+    border: 1px solid black;
+}
+.third-square {
+    width: 6vw;
+    height: 6vw;
+    text-align: center;
+    padding-top: 2.5vw;
+    /* background-image: url(./black\ dama\ taşı-2.1.jfif);
+    background-size: 5vw;
+    background-repeat: no-repeat;
+    background-position-y: 1vw; */
+}
+
+.fourth-row {
+    display: flex;
+    background-color: white;
+}
+.fourth-square {
+    width: 6vw;
+    height: 6vw;
+    text-align: center;
+    padding-top: 2.5vw;
+}
+.fifth-row {
+    display: flex;
+    background-color: white;
+}
+.fifth-square {
+    width: 6vw;
+    height: 6vw;
+    text-align: center;
+    padding-top: 2.5vw;
+}
+.sixth-row {
+    display: flex;
+    background-color: white;
+}
+.sixth-square {
+    width: 6vw;
+    height: 6vw;
+    text-align: center;
+    padding-top: 2.5vw;
+
+}
+.seventh-row {
+    display: flex;
+    background-color: white;
+}
+.seventh-square {
+    width: 6vw;
+    height: 6vw;
+    text-align: center;
+    padding-top: 2.5vw;
+}
+.eighth-row {
+    display: flex;
+    background-color: white;
+}
+.eighth-square {
+    width: 6vw;
+    height: 6vw;
+    text-align: center;
+    padding-top: 2.5vw;
+}
+.first-square:nth-child(even) {
+    background-color:  #612A22;
+    color: red;
+}
+.second-square:nth-child(odd) {
+    background-color:  #612A22;
+    /* color: red; */
+}
+.third-square:nth-child(even) {
+    background-color:  #612A22;
+    /* color: red; */
+}
+.fourth-square:nth-child(odd) {
+    background-color:  #612A22;
+    color: red;
+}
+.fifth-square:nth-child(even) {
+    background-color:  #612A22;
+    color: red;
+}
+.sixth-square:nth-child(odd) {
+    background-color:  #612A22;
+    /* color: red; */
+}
+.seventh-square:nth-child(even) {
+    background-color:  #612A22;
+    color: red;
+}
+.eighth-square:nth-child(odd) {
+    background-color:  #612A22;
+    color: red;
+}
+

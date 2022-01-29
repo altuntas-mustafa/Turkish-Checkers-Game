@@ -1,2 +1,1 @@
-# Turkish-Checkers-Game
-will be update
+# Turkish-Dama-Game
